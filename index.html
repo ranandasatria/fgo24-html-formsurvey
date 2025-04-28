@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Perokok</title>
+</head>
+<body>
+   <form>
+    <div>
+        <div><label for="nama">Siapa nama anda?</label></div>
+        <input type="text" name="nama" id="nama">
+    </div>
+
+    <div>
+        <div><label for="umur">Berapa umur anda?</label></div>
+        <input type="number" name="umur" id="umur">
+    </div>
+
+    <div>
+        <div><label for="gender">Apa jenis kelamin anda?</label></div>
+
+        <input type="radio" name="gender" value="l" id="gender-1">
+        <label for="gender-1">Laki-laki</label>
+
+        <input type="radio" name="gender" value="p" id="gender-2">
+        <label for="gender-2">Perempuan</label>
+    </div>
+
+    <div>
+        <div><label for="perokok">Apa anda perokok?</label></div>
+
+        <input type="radio" name="perokok" value="Perokok" id="perokok-1">
+        <label for="perokok-1">Ya</label>
+
+        <input type="radio" name="perokok" value="Bukan Perokok" id="perokok-2">
+        <label for="perokok-2">Tidak</label>
+    </div>
+
+    <div>
+        <div><label for="rokok">Jika anda perokok, rokok apa yang anda pernah coba?</label></div>
+
+        <div>
+            <input type="checkbox" name="rokok" value="Gudang Garam Filter" id="ggfilter">
+            <label for="ggfilter">Gudang Garam Filter</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="rokok" value="Lucky Strike" id="luckystrike">
+            <label for="luckystrike">Lucky Strike</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="rokok" value="Marlboro" id="marlboro">
+            <label for="marlboro">Marlboro</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="rokok" value="Esse" id="esse">
+            <label for="esse">Esse</label>
+        </div>
+
+        <div>
+            <button type="reset">Reset</button>
+            <button type="reset">Submit</button>
+        </div>
+
+    </div>
+
+   </form>
+</body>
+</html>
