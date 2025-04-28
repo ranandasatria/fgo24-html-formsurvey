@@ -45,4 +45,4 @@ Your PR will be reviewed and merged if necessary.
 This project following MIT License.
 
 ## Copyright
-&copy; 2025 Kodacademy
+&copy; 2025 Kodacademy.
