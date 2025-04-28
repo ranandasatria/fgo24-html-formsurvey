@@ -8,7 +8,7 @@ Users can fill out the survey form and view the collected results displayed in a
 ![Preview](/form.png)
 ![Preview](/table.png)
 
-## Cara memulai
+## Getting Started
 1. Clone this project:
 ```
 git clone repo-url
