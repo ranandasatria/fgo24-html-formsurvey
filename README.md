@@ -1,11 +1,20 @@
 # HTML FORM SURVEY
-Ini adalah project untuk membuat form dengan HTML tanpa CSS. Survey perokok digunakan sebagai wadah untuk eksplorasi pembuatan form kali ini.
+Proyek ini bertujuan untuk membuat sebuah form survei perokok menggunakan HTML murni tanpa CSS tambahan. Fokus utama proyek ini adalah memahami struktur dasar form dalam HTML dan berbagai jenis input yang bisa digunakan.
 
-## Langkah-langkah untuk memulai project
-1. Inisialisasi project Node.js dengan npm init -y
-2. Install live-server untuk menjalankan html di browser dengan npm install live-server --save-dev
-3. Simpan script untuk menjalankan live-server di package.json dengan "dev": "live-server"
-4. Isi file HTML dengan struktur dasar mulai dari <!DOCTYPE html> <html> <head> <body> dan tag penutupnya.
-5. Gunakan element seperti <form>, <label>, <input>, <button> untuk membuat form
-6. Pilih tipe input seperti radio button, text, number, atau checkbox
-7. Jalankan npm run dev untuk melihat langsung hasilnya di browser.
+## Fitur 
+- Membuat struktur form HTML dari awal.
+- Menggunakan berbagai elemen form seperti text input, radio button, number field, dan checkbox.
+- Menjalankan file HTML secara live di browser menggunakan live-server.
+
+## Persyaratan
+Node.js sudah terinstal di komputer.
+
+## Cara memulai
+1. Inisialisasi proyek Node.JS
+```
+npm init -y
+```
+
+2. Install live-server sebagai dependensi:
+```npm install live-server --save-dev
+```
