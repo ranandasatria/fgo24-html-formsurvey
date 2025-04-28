@@ -16,5 +16,25 @@ npm init -y
 ```
 
 2. Install live-server sebagai dependensi:
-```npm install live-server --save-dev
+```
+npm install live-server --save-dev
+```
+
+3. Buka file package.json, lalu tambahkan script berikut:
+```
+"scripts": {
+  "dev": "live-server"
+}
+```
+
+4. Buat File HTML
+- Buat file index.html.
+
+- Tulis struktur dasar HTML, mulai dari ```<html>```, ```<head>```, hingga ```<body>```.
+
+- Buat form menggunakan elemen: ```<form>```, ```<label>```, ```<input>``` dengan berbagai tipe seperti ```text```, ```number```. ```radio```, dan ```checkbox```.
+
+5. Jalankan perintah berikut untuk menampilkan form di browser:
+```
+npm run dev
 ```
