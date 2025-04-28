@@ -42,7 +42,7 @@ Your PR will be reviewed and merged if necessary.
 
 ## License
 
-This project folling MIT License.
+This project following MIT License.
 
 ## Copyright
 &copy; 2025 Kodacademy
