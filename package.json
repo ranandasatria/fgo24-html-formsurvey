@@ -19,6 +19,7 @@
   "homepage": "https://github.com/ranandasatria/fgo24-html-formsurvey#readme",
   "description": "",
   "devDependencies": {
+    "lighthouse": "^12.6.0",
     "live-server": "^1.2.2"
   }
 }

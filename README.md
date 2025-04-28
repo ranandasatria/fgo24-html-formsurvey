@@ -1,40 +1,48 @@
 # HTML FORM SURVEY
-Proyek ini bertujuan untuk membuat sebuah form survei perokok menggunakan HTML murni tanpa CSS tambahan. Fokus utama proyek ini adalah memahami struktur dasar form dalam HTML dan berbagai jenis input yang bisa digunakan.
+This project is aimed at creating a smoker survey form using pure HTML without additional CSS.
+The main focus is to understand the basic structure of an HTML form and the different types of input elements available.
 
-## Fitur 
-- Membuat struktur form HTML dari awal.
-- Menggunakan berbagai elemen form seperti text input, radio button, number field, dan checkbox.
-- Menjalankan file HTML secara live di browser menggunakan live-server.
+Users can fill out the survey form and view the collected results displayed in a simple table format.
 
-## Persyaratan
-Node.js sudah terinstal di komputer.
+## Preview
+![Preview](/form.png)
+![Preview](/table.png)
 
 ## Cara memulai
-1. Inisialisasi proyek Node.JS
+1. Clone this project:
 ```
-npm init -y
-```
-
-2. Install live-server sebagai dependensi:
-```
-npm install live-server --save-dev
+git clone repo-url
 ```
 
-3. Buka file package.json, lalu tambahkan script berikut:
+2. Install the depedencies:
 ```
-"scripts": {
-  "dev": "live-server"
-}
+npm install
 ```
 
-4. Buat File HTML
-- Buat file index.html.
-
-- Tulis struktur dasar HTML, mulai dari ```<html>```, ```<head>```, hingga ```<body>```.
-
-- Buat form menggunakan elemen: ```<form>```, ```<label>```, ```<input>``` dengan berbagai tipe seperti ```text```, ```number```. ```radio```, dan ```checkbox```.
-
-5. Jalankan perintah berikut untuk menampilkan form di browser:
+3. Run the project:
 ```
 npm run dev
 ```
+
+4. The project will be runnning at:
+``` 
+http://localhost:8080
+```
+
+## Depedencies
+
+This project uses Node.js. Make sure you have Node.js installed on your machine.
+
+- live-server: to simulate an HTTP server in a local environment.
+
+## How to contribute
+
+Please open a Pull Request (PR) to contribute to this project.
+Your PR will be reviewed and merged if necessary.
+
+## License
+
+This project folling MIT License.
+
+## Copyright
+&copy; 2025 Kodacademy
